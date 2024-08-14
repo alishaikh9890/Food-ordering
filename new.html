@@ -1,0 +1,255 @@
+<! DOCTYPE html>
+
+<html>
+
+	<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link href="img/ux-design.png" rel="icon" />
+		<title>New UI / UX tutorial</title>
+		
+		<style>
+			.nav{
+				display:flex;
+				justify-content:space-between;
+				padding:10px 20px;
+			box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+			border-radius:10px
+			}
+			.nav-item{
+				
+				display:flex;
+				
+				align-center:center;
+			}
+			buttton{
+				margin:auto
+			}
+			
+			.products >img{
+			 width:100px;
+			 box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+			 border-radius:20px;
+			 border-radius:20px;
+			 margin:10px;
+			 transition:all 1s;
+			}
+			.products > img:hover{
+				transform: scale(1.2)
+			}
+			.products{
+				margin-top:10px;
+				display:flex;
+				justify-content:center;
+				flex-flow:wrap;
+			}
+			
+			.menu{
+				height:50PX;
+					box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+					border-radius:30px
+			}
+			
+			.offers{
+				display:flex;
+				justify-content:center;
+				margin-top:20px;
+				gap:10px
+			}
+			
+		
+			.offers img{
+			width:45%;
+			margin:10px 0px;
+			border-radius:15px;
+			box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+			padding:5px
+			
+			}
+			
+			.filters{
+				margin-top:30px;
+				display:flex;
+				justify-content:center;
+				gap:10px;
+				padding:10px
+			}
+			
+			.filters > button{
+				padding: 8px;
+				width:40%;
+				border:none;
+				background:green;
+				box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+				color:white;
+				border-radius:5px;
+				font-family:poppins;
+				font-weight:700;
+				letter-spacing:1px;	
+			}
+			
+			.filters > button:hover{
+				color:white;
+				background:orange;
+			}
+			
+			.prod{
+				display:flex;
+				flex-flow:wrap;
+				justify-content:center;
+				
+			}
+			.prod > div{
+			
+					box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+					border-radius:10px;
+				margin:10px;
+				 transition:all 1s;
+			}
+			.items > img{
+				width:175px;
+				border-radius:20px;
+			
+			}
+			.items:hover{
+				transform: scale(1.1)
+			}
+			.price{
+				display:flex;
+				justify-content:space-between;
+					padding:5px 10px;
+			}
+			
+			.cart{
+				padding:10px;
+			}
+			
+			.cart >button{
+				width:100%;
+				background:orange;
+				color:white;
+				font-weight:700;
+				color:white;
+				font-size:15px;
+				border-radius:5px;
+				border:none;
+				padding:5px 0px;
+				box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+			}
+			
+		</style>
+		
+		
+		
+	</head>
+	
+	<body>
+		<div class="nav" >
+			<div class="logo" ><h2>Harsh</h2></div>
+			<div class="nav-item">
+			
+					<img class="menu" src="img/menu.gif" alt="" />
+			
+			</div>
+		</div>
+		
+			
+		<div class="offers" >
+			<img src="img/offer1.jpg" alt="" />
+			<img src="img/offer2.jpg" alt="" />
+		
+		</div>
+	
+		
+		<div class="products">
+			<img src="img/burger.jpg" alt="" />
+			<img src="img/pizza.jpg" alt="" />
+			<img src="img/frise.jpg" alt="" />
+			<img src="img/burger.jpg" alt="" />
+			<img src="img/pizza.jpg" alt="" />
+			<img src="img/frise.jpg" alt="" />
+			<img src="img/burger.jpg" alt="" />
+			<img src="img/pizza.jpg" alt="" />
+			<img src="img/frise.jpg" alt="" />
+			<img src="img/burger.jpg" alt="" />
+			<img src="img/pizza.jpg" alt="" />
+			<img src="img/frise.jpg" alt="" />
+		</div>
+		
+			
+		<div class="filters">
+			
+			<button>Offers</button>
+			<button>Sort</button>
+			<button>Filter</button>
+			<button>Quentity</button>
+		</div>	
+		
+		
+		
+		<div class="prod">
+			<div class="items">
+				<img src="img/burger.jpg" alt="" />
+				<div class="price">
+					<b>$ 100</b> <i>⭐⭐⭐</i>
+				</div>
+				<div class="cart">
+					<button>Add </button>
+				</div>
+			</div>
+			
+			<div class="items">
+				<img src="img/pizza.jpg" alt="" />
+					<div class="price">
+					<b>$ 100</b> <i>⭐⭐⭐</i>
+				</div>
+				<div class="cart">
+					<button>Add </button>
+				</div>
+			</div>
+			
+			<div class="items">
+				<img src="img/frise.jpg" alt="" />
+					<div class="price">
+					<b>$ 100</b> <i>⭐⭐⭐</i>
+				</div>
+				<div class="cart">
+					<button>Add </button>
+				</div>
+			</div>
+			
+			<div class="items">
+				<img src="img/burger.jpg" alt="" />
+					<div class="price">
+					<b>$ 100</b> <i>⭐⭐⭐</i>
+				</div>
+				<div class="cart">
+					<button>Add </button>
+				</div>
+			</div>
+			
+			<div class="items">
+				<img src="img/pizza.jpg" alt="" />
+					<div class="price">
+					<b>$ 100</b> <i>⭐⭐⭐</i>
+				</div>
+				<div class="cart">
+					<button>Add </button>
+				</div>
+			</div>
+			
+			<div class="items">
+				<img src="img/frise.jpg" alt="" />
+					<div class="price">
+					<b>$ 100</b> <i>⭐⭐⭐</i>
+				</div>
+				<div class="cart">
+					<button>Add </button>
+				</div>
+			</div>
+		
+			
+		</div>
+	
+	
+	</body>
+</html>
